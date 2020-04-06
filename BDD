@@ -1,0 +1,8 @@
+Tables:
+
+users (`user_id` --AutoIncrement--, `username`, `email`, `password`, `first_name`, `last_name`, `phonenumber`, `gender`, `moreinformation`, `photo`)
+
+carsharetrips (#`user_id`,`departure`, `departureLat`,`departLong`,`destination`, `destinationLat`, `destLong`, `price`, `seatsavailable`,`date`, `time`,`comments`)
+
+rememberme (`authentificator1`, `f2authentificator2`, #`user_id`, `expires`)
+
